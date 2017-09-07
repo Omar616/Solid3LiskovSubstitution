@@ -16,11 +16,11 @@ public class LiskovSubstitutionPrinciple {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Perro ObjetoPerro = new Perro();
-        Gato ObjetoGato = new Gato();
+        Hombre ObjetoPerro = new Hombre();
+        Mujer ObjetoGato = new Mujer();
         
-        ObjetoPerro.Alimentarse();
-        ObjetoGato.Alimentarse();
+        ObjetoPerro.hablar();
+        ObjetoGato.hablar();
     }
     
 }
